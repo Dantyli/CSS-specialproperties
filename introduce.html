@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>css相关</title>
+	</head>
+	<style>
+		.username {
+			text-transform: uppercase;
+		}
+		.exCont{
+			width: 300px;
+			-webkit-touch-callout: none;/*系统默认菜单被禁用*/
+			-webkit-user-select: none;/*webkit浏览器*/
+			-moz-user-select: none;/*火狐*/
+			-ms-user-select: none;/*IE10*/
+		}
+	</style>
+	<body>
+		<p>text-transform属性控制文本的大小写,uppercase定义无小写字母只有大写,该属性只做展示用,获取到的input中的值仍为原输入的格式</p>
+		用户名 : <input type="text" class="username">
+		<p>user-select,-webkit-touch-callout: none;阻止用户复制文本内容,亲测移动端失效,长按可调出默认菜 囧</p>
+		<p class="exCont">
+			内容不能复制,并且阻止移动浏览器长按默认菜单
+			内容不能复制,并且阻止移动浏览器长按默认菜单
+			内容不能复制,并且阻止移动浏览器长按默认菜单
+			内容不能复制,并且阻止移动浏览器长按默认菜单
+			内容不能复制,并且阻止移动浏览器长按默认菜单
+		</p>
+	</body>
+</html>
