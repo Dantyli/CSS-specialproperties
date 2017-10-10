@@ -16,6 +16,20 @@
 			-moz-user-select: none;/*火狐*/
 			-ms-user-select: none;/*IE10*/
 		}
+		.wrap {
+		        height: 2000px;
+	       }
+	       .wrap li {
+			list-style: none;
+			height: 50px;
+			background: #00A1CB;
+			margin-bottom: 20px;
+	       }
+	       .con2 {
+			position: sticky;
+			position: -webkit-sticky;
+			top: 0;
+	       }
 	</style>
 	<body>
 		<p>text-transform属性控制文本的大小写,uppercase定义无小写字母只有大写,该属性只做展示用,获取到的input中的值仍为原输入的格式</p>
@@ -28,5 +42,11 @@
 			内容不能复制,并且阻止移动浏览器长按默认菜单
 			内容不能复制,并且阻止移动浏览器长按默认菜单
 		</p>
+		<!--position:sticky实现粘性布局,例如导航栏头部固定,js实现可参考前面的 anchorjump-and-headlock	-->
+		<ul class="wrap">
+		        <li class="con1">111</li>
+			<li class="con2">222</li>
+			<li class="con3">333</li>
+		</ul>
 	</body>
 </html>
